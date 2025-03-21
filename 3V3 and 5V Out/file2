@@ -1,1 +1,5 @@
+steps to do this
 
+I will need a voltage regulator or
+a boost and buck converter - these do that the boost converter will up the voltage(e.g 3.7 V to 5V) and the buck converter will
+down the voltage (e.g 3.7V to 3v3)
