@@ -1418,7 +1418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705919464263680"
 			(at 91.44 95.25 0)
 			(effects
 				(font
@@ -1428,6 +1428,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C25741"
 			(at 91.44 95.25 0)
 			(effects
 				(font
@@ -1584,74 +1593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 172.72 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b7d6475-2a13-457c-bf0a-44488fad0de0")
-		(property "Reference" "R2"
-			(at 172.72 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 172.72 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 172.72 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b986df30-b7a8-4856-9178-401cc2807b75")
-		)
-		(pin "2"
-			(uuid "ad8627ba-19dd-4ccf-9b61-4f1b1c8d2ddd")
-		)
-		(instances
-			(project "9V Charge"
-				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 107.95 88.9 0)
 		(unit 1)
@@ -1688,7 +1629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724090244980736"
 			(at 107.95 101.6 0)
 			(effects
 				(font
@@ -1698,6 +1639,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 107.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C8545"
 			(at 107.95 88.9 0)
 			(effects
 				(font
@@ -1753,6 +1703,83 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
+		(at 172.72 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "646a1e91-8588-4090-bf19-d9764d47f84d")
+		(property "Reference" "R2"
+			(at 172.72 73.8111 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 172.72 76.3511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705919464263680"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C25741"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eec49c1f-3828-4f30-8527-f0687a7e62c6")
+		)
+		(pin "1"
+			(uuid "cdf0b0bf-06ed-4bb2-a6e9-54c14772b058")
+		)
+		(instances
+			(project "9V Charge"
+				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
 		(at 110.49 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1770,7 +1797,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.5k"
+		(property "Value" "2.4k"
 			(at 113.03 100.3299 0)
 			(effects
 				(font
@@ -1788,7 +1815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706166890315776"
 			(at 110.49 99.06 0)
 			(effects
 				(font
@@ -1798,6 +1825,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C22940"
 			(at 110.49 99.06 0)
 			(effects
 				(font
@@ -1921,76 +1957,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 168.91 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92f6c9db-cedd-4e7a-b683-f7a678397fde")
-		(property "Reference" "C1"
-			(at 172.72 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 172.72 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 169.8752 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 168.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0d7323e2-58b8-4b79-a508-5872d57316ab")
-		)
-		(pin "1"
-			(uuid "00856504-a6a9-440c-b8c5-27cc3f07db60")
-		)
-		(instances
-			(project ""
-				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 154.94 93.98 0)
 		(unit 1)
@@ -2091,7 +2057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706381320323072"
 			(at 97.79 88.9 0)
 			(effects
 				(font
@@ -2102,6 +2068,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C25804"
+			(at 97.79 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,6 +2160,85 @@
 			(project "9V Charge"
 				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c07b050e-e8ef-4fea-b18a-a6c43fd1e3db")
+		(property "Reference" "C1"
+			(at 172.72 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 172.72 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.8752 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706853615591424"
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15850"
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8aaf31a0-8069-405e-8306-28a2b32c828b")
+		)
+		(pin "1"
+			(uuid "54242d17-6b24-48b8-8cd2-99d098aaaeaf")
+		)
+		(instances
+			(project "9V Charge"
+				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2359,7 +2413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706853615591424"
 			(at 142.24 92.71 0)
 			(effects
 				(font
@@ -2369,6 +2423,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15850"
 			(at 142.24 92.71 0)
 			(effects
 				(font
@@ -2477,7 +2540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "5.1k"
 			(at 123.19 90.1699 0)
 			(effects
 				(font
@@ -2495,7 +2558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706277024620544"
 			(at 120.65 88.9 0)
 			(effects
 				(font
@@ -2505,6 +2568,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" "C23186"
 			(at 120.65 88.9 0)
 			(effects
 				(font
