@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC,Quantity
+DFN-6L-EP(2x2)_USB_PD_ROHS,U1,DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm,C22373734,1
+75k,R1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23242,1
+USB_C_Receptacle_USB2.0_16P,J1,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,C393939,1
+1uF,C1,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C52923,1
