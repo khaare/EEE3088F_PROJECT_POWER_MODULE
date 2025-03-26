@@ -1,0 +1,19 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,1uF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,158.455,-94.625,0.0,top
+C2,10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,152.225,-97.535,0.0,top
+C3,10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,152.225,-100.545,0.0,top
+C4,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,141.695,-87.215,0.0,top
+J1,USB_C_Receptacle_USB2.0_16P,SHOUHAN_TYPE-C_16PIN_2MD__073_,149.445,-90.4375,0.0,top
+Q1,NMOS,SOT-23_Handsoldering,157.855,-98.53,0.0,top
+R1,75k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,141.695,-89.725,0.0,top
+R2,100m,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,146.845,-97.675,0.0,top
+R3,100m,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,146.845,-100.965,0.0,top
+R4,3.3k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,141.695,-92.235,0.0,top
+R5,100k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,158.475,-86.955,0.0,top
+R6,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,141.695,-94.745,0.0,top
+R7,2.4k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,141.695,-97.255,0.0,top
+R8,5.1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,141.695,-99.765,0.0,top
+R9,100k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,158.475,-88.945,0.0,top
+U1,DFN-6L-EP(2x2)_USB_PD_ROHS,DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm,152.22,-103.9,0.0,top
+U2,DFN-8-EP(2x2) Battery Management ROHS,DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm,159.03,-91.87,0.0,top
+U3,INA219AxD,SOT65P280X145-8N,157.745,-103.025,0.0,top

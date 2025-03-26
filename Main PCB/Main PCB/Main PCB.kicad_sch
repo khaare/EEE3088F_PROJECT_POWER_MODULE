@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "ff2ce915-4a8f-408b-9fc1-e6f3f00121cf")
 	(paper "A4")
+	(title_block
+		(title "Micromouse Power Board")
+		(rev "v1")
+		(company "University of Cape Town")
+		(comment 1 "Joshua Handyside")
+		(comment 2 "Khaarendiwe Mulaudzi")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -3049,6 +3056,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3111,6 +3124,12 @@
 		(instances
 			(project "9V Charge"
 				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -3185,6 +3204,12 @@
 			(uuid "ecc2c936-5a1e-4e1e-a3e8-ec927a66d420")
 		)
 		(instances
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "INA219 Battery Monitor"
 				(path "/ff5e07f0-6201-4df3-9bd3-af682c57b258"
 					(reference "R3")
@@ -3270,6 +3295,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3300,7 +3331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 34.29 105.41 0)
 			(effects
 				(font
@@ -3345,6 +3376,12 @@
 		(instances
 			(project "9V Charge"
 				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
 					(reference "R5")
 					(unit 1)
 				)
@@ -3415,6 +3452,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3477,6 +3520,12 @@
 		(instances
 			(project "9V Charge"
 				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -3552,6 +3601,12 @@
 			(uuid "59be8bd4-924f-425f-ac01-c0c4721f3ecf")
 		)
 		(instances
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/ff5e07f0-6201-4df3-9bd3-af682c57b258"
 					(reference "C1")
@@ -3637,6 +3692,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3699,6 +3760,12 @@
 		(instances
 			(project "USB-C Integration"
 				(path "/462206a5-994a-4a96-b2d4-155b40f126c3"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -3795,6 +3862,12 @@
 		)
 		(instances
 			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/ff5e07f0-6201-4df3-9bd3-af682c57b258"
 					(reference "U1")
 					(unit 1)
@@ -3830,7 +3903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 55.88 96.52 0)
 			(effects
 				(font
@@ -3909,6 +3982,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3922,7 +4001,7 @@
 		(fields_autoplaced yes)
 		(uuid "646a1e91-8588-4090-bf19-d9764d47f84d")
 		(property "Reference" "R2"
-			(at 115.57 83.9711 90)
+			(at 115.57 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,14 +4009,14 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 115.57 86.5111 90)
+			(at 115.57 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 115.57 90.17 0)
 			(effects
 				(font
@@ -3986,6 +4065,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4016,7 +4101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 53.34 109.22 0)
 			(effects
 				(font
@@ -4065,6 +4150,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4094,7 +4185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm"
 			(at 97.79 87.63 0)
 			(effects
 				(font
@@ -4161,6 +4252,12 @@
 			(project ""
 				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4235,6 +4332,12 @@
 		)
 		(instances
 			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/ff5e07f0-6201-4df3-9bd3-af682c57b258"
 					(reference "R1")
 					(unit 1)
@@ -4306,6 +4409,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4372,6 +4481,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4400,7 +4515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 40.64 99.06 0)
 			(effects
 				(font
@@ -4446,6 +4561,12 @@
 			(project "9V Charge"
 				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4515,6 +4636,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4545,7 +4672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 112.7252 106.68 0)
 			(effects
 				(font
@@ -4591,6 +4718,12 @@
 			(project "9V Charge"
 				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4654,6 +4787,12 @@
 			(uuid "5098c6ff-7afe-490f-8aa9-5ff304ea22f3")
 		)
 		(instances
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/ff5e07f0-6201-4df3-9bd3-af682c57b258"
 					(reference "#PWR02")
@@ -4726,6 +4865,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4792,6 +4937,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4822,7 +4973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 86.0552 106.68 0)
 			(effects
 				(font
@@ -4867,6 +5018,12 @@
 		(instances
 			(project "9V Charge"
 				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
 					(reference "C2")
 					(unit 1)
 				)
@@ -4963,6 +5120,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5026,6 +5189,12 @@
 			(project "9V Charge"
 				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -5227,6 +5396,12 @@
 			(uuid "7b6bb31d-871d-4aa6-80cd-3277729ee678")
 		)
 		(instances
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "INA219 Battery Monitor"
 				(path "/ff5e07f0-6201-4df3-9bd3-af682c57b258"
 					(reference "R2")
@@ -5263,7 +5438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 63.5 99.06 0)
 			(effects
 				(font
@@ -5309,6 +5484,12 @@
 			(project ""
 				(path "/f38f0a89-765d-483b-a37e-6d089e1c6587"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5372,6 +5553,12 @@
 			(uuid "788a6921-3f01-48c2-8ee4-7770c755942b")
 		)
 		(instances
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/ff5e07f0-6201-4df3-9bd3-af682c57b258"
 					(reference "#PWR01")
@@ -5440,6 +5627,12 @@
 		(instances
 			(project ""
 				(path "/462206a5-994a-4a96-b2d4-155b40f126c3"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/ff2ce915-4a8f-408b-9fc1-e6f3f00121cf"
 					(reference "#PWR02")
 					(unit 1)
 				)
